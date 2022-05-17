@@ -18,7 +18,7 @@ jobs:
         dotnet-version: 6.0.x
     - name: Install dependencies
       run: dotnet tool install Web.Ping -g
-    - name: Ping www.zkea.net
-      run: Web.Ping --host http://www.zkea.net
-    - name: Ping demo.zkea.net
-      run: Web.Ping --host http://demo.zkea.net
+    - name: Ping ggzy.zhenjiang.gov.cn
+      run: Web.Ping --host http://ggzy.zhenjiang.gov.cn/
+    - name: Ping ggzy.zhenjiang.gov.cn
+      run: Web.Ping --host http://ggzy.zhenjiang.gov.cn/
